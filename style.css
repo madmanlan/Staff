@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+
+        font-family: levenim MT;
+
+
+}
+ 
+
+
+/* navigation */
+
+#navigation {
+
+    position: fixed; top: 0;
+z-index: 10;
+    width: 100%;
+    height: 100px;
+
+    background-color: rgba(112, 112, 112, 0.507);
+
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+
+    float: left;
+
+    margin: 20px;
+}
+
+#logo p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6em;
+    line-height: 0.5;
+
+    color: rgb(255, 255, 255);
+
+}
+#menü {
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
+#menü a {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 35px;
+
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+#menü a:hover {
+    border-top: solid white 3px;
+}
+#banner {
+
+    width: 100%;
+    height: 700px;
+    z-index: 0;
+
+    background-image: url("First.jfif");
+    background-size: cover;
+    
+
+}
+
+#banner h1 {
+    padding-top: 250px;
+    text-align: center;
+    color: white;
+    font-size: 6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+    
+
+#content {
+    margin-top: 50px; 
+}
+
+
+
+#Staff {
+   
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+#Text {
+    column-count: 2;
+    column-gap: 60px;
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+#Text2 {
+    padding-left: 180px;
+    padding-right: 180px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+
+
+
+#Margin20 {
+    margin-left: 150px; 
+    margin-right: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
