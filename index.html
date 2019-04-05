@@ -196,31 +196,13 @@ Hinterlassen Sie uns Ihre Daten und wir melden uns bei Ihnen so bald wie möglic
 
 
 
-$target = "upload/";  
-$target = $target . basename( $_FILES['uploaded']['name']) ;  
-$ok=1;  if(move_uploaded_file($_FILES['uploaded']['tmp_name'], $target))
-{ 
-echo "The file ". basename( $_FILES['uploadedfile']['name']). " has been uploaded"; 
-}  
-else { 
-echo "Sorry, there was a problem uploading your file."; 
-} 
-?>
+<form  action="upload.php" method="post" enctype="multipart/form-data">
 
+<input type="file" name="file" />
 
+<button type="submit" name="submit">UPLOAD</button>
 
-.grid
-  .grid__col--12
-    form#contact-form
-      label(for='inputName') Name
-      input#inputName.form__input(type='text', placeholder='Name', name='name')
-      label(for='inputEmail') Email
-      input#inputEmail.form__input(type='email', placeholder='Email', name='email')
-      label(for='inputMessage') Message
-      textarea#inputMessage.form__input(rows='3', placeholder='Your Message', name='message')
-      input.display-none(type='text', name='_gotcha')
-      input#email-submit-btn.btn--default.fill(type='submit', value='Send')
-
+ </form>
 
     </Body>
 
